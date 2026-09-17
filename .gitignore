@@ -1,0 +1,78 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Machine Learning
+# =========================
+
+# Datasets
+model/data/raw/Howard-Cloud-X/
+model/data/raw/howard-cloudx.zip
+model/data/processed/
+
+# Dataset splits / generated metadata
+model/data/splits/
+
+# Training outputs
+model/checkpoints/
+model/logs/
+model/runs/
+
+# TensorBoard
+model/tensorboard/
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Model files
+# =========================
+
+# Generated/exported models
+*.h5
+*.keras
+*.ckpt
+*.onnx
+
+# TensorFlow SavedModel
+saved_model/
+
+# =========================
+# OS / IDE
+# =========================
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# =========================
+# Secrets / configuration
+# =========================
+
+.env
+.env.*
+!.env.example
